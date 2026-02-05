@@ -2,31 +2,85 @@
 % Robert / Joe
 %![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
 
-#
+# What is it?
 
-## First Page
+# Why would you want that?
 
-- My
-- Talk
-- Outline
+# The Horror
 
-## Content Page
+## Branding
 
-Some important info
+---
+
+In the beginning there was ClawdBot
 
 ::: notes
 
-Some speaker notes here
+This made a lot of people (mainly anthropic) very upset and was widely regarded as a bad move.
 
 :::
 
-# Next Big Section
+---
 
-## Content Page 2
+Then there was MoltBot
 
-An important image
+::: notes
 
-![](https://placecats.com/200/300)
+I guess the idea was the lobster was molting?
+
+:::
+
+---
+
+Then about 24 hours later, OpenClaw was born
+
+::: notes
+
+Seriously, two name changes in like a day.
+
+:::
+
+---
+
+### So What?
+
+ - GitHub and Twitter handles immediately squatted
+ - Dozens of fradulent packages on NPM
+ - Crypto pump & dump schemes
+  
+## Malicious Skills
+
+## Old Fashioned Vulnerabilities
+
+## Prompt Injection
+
+## Exposed Instances
+
+## Shadow IT
+
+# Our Advice
+
+## Don't
+
+![alt text](static/no-nope.gif)
+
+## Seriously
+
+![alt text](static/no-nope.gif)
+
+## Just No
+
+![alt text](static/no-nope.gif)
+
+## Okay, if you have to
+
+## Containers
+
+## No Creds
+
+## Small Blast Radius
+
+## Review Skills
 
 # The End
 
