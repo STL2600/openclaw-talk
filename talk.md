@@ -1,8 +1,8 @@
-% Talk Title
-% Your Name <your@email>
+% Welcome to the shitshow / OpenClaw
+% Robert / Joe
 %![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
 
-# Important Header
+#
 
 ## First Page
 
@@ -32,7 +32,7 @@ An important image
 
 ---
 
-Your Name <your@email>
+Robert / Joe
 
 ![](static/qrcode.png)
 
