@@ -62,15 +62,15 @@ Seriously, two name changes in like a day.
 
 ## Don't
 
-![alt text](static/no-nope.gif)
+![](static/no-nope.gif)
 
 ## Seriously
 
-![alt text](static/no-nope.gif)
+![](static/no-nope.gif)
 
 ## Just No
 
-![alt text](static/no-nope.gif)
+![](static/no-nope.gif)
 
 ## Okay, if you have to
 
