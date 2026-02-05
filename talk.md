@@ -52,6 +52,36 @@ Seriously, two name changes in like a day.
 
 ## Old Fashioned Vulnerabilities
 
+-- 
+
+CVE-2026-25253 (CVSS 8.8)
+
+::: notes
+
+One click RCE.  User just has to visit a malicious site.
+
+:::
+
+--
+
+CVE-2026-25157 (CVSS 7.8)
+
+::: notes
+
+Allows for arbritrary command exec on any system that the agent can ssh into.
+
+:::
+
+--
+
+CVE-2026-24763 (CVSS 8.8)
+
+::: notes
+
+Sandbox escape.
+
+:::
+
 ## Prompt Injection
 
 ## Exposed Instances
