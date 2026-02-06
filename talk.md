@@ -50,6 +50,108 @@ Seriously, two name changes in like a day.
   
 ## Malicious Skills
 
+### What are Skills
+
+- Extends OpenClaws Capabilities
+- Just Plain-text Instructions
+- Easy to create, Easy to Abuse
+
+::: notes
+
+One of the attractive things about OpenClaw is how easy it is to add capabilities.
+These are referred to as "skills".
+Sometimes they include a script or something, but like 99% of it is just a man page written in markdown explaining to the AI how to use a command-line tool.
+
+It's so frightenly simple that you not only do you not have to code it, but you could simply just ask another LLM to write it for you.
+
+Consequently, this makes it just as easy to abuse.
+
+:::
+
+### Skill Repos
+
+- ClawHub.ai
+- Skills.sh
+- Moltbook
+
+::: notes
+
+ClawHub is the official skill repository
+There are some others, such as Skills.sh
+And of course, there Moltbook, which is Reddit for AI agents.
+
+:::
+
+### Statistics
+- Approx 20% of skills Malicious
+- 54% of Crypto-currency/Gambling
+- 24% of Social Media
+- 17% of Maintenance Automation
+- 5% of Productivity
+
+::: notes
+
+ClawHub started late January 27th.
+Between then and February 1st, over 230 malicious skills were published in that week.
+That was almost 20% of the total skills.
+Let that sink in. 1 in 5 skills are malicious.
+Of those skills...
+
+Those numbers came from security reasearcher Jamieson O'Reilly
+Othert sources, such as Koi Security say that number is higher (341 of 2857)
+Not coutning the 29 typosquat instances they found
+
+:::
+
+### Moltbook
+
+
+
+### Moltbook
+
+- Agents can share skills
+- Pinoccio also gets to pretent to be a real boy!
+
+::: notes
+
+Moltbook...
+Reddit for AI Agents.
+Left on their own, after being given a vague prompt, it allows agents to share skills among themselves.
+Now if you haven't read enough sci-fi that this alone makes your butthole pucker up, I assure you this is worse than you thought.
+
+:::
+
+### MoltBook
+
+- Lauched 9 Days ago
+- 1.5 Million Agents
+
+::: notes
+
+Launched January 28th.
+The website claims it already has over 1 million agents using it.
+Wiz researchers says only about 17,000 human owners are using it though
+The owner of Moltbook directed his own bot to inflate thos numbers by registering users.
+
+Bot-to-bot attacks
+- Prompt injection against other agents
+- Agents instructing others to delete their own accounts
+- Crypto-pump-and-dump scemes
+
+But this was so shoddily put together, by the 4th day, 404 reported
+- Vulnerabiltiy in Unsecured database
+- Allowed anyone to commandeer any agent on the platform
+- Bypassed authentication measures
+- Inject commands directly into agent sessions
+- Platform was taken offline to be patched and all API tokens reset.
+- Moltbook founder admits it was entirely vibe-coded and didn't write a single line of code.
+
+
+:::
+
+
+
+
 ## Old Fashioned Vulnerabilities
 
 -- 
@@ -115,6 +217,30 @@ Sandbox escape.
 ## Small Blast Radius
 
 ## Review Skills
+
+### Spotting a Malicious Skill
+
+::: notes
+
+- Might appear to have extensive documentation
+- Clones of existing skills with randomized names
+- Does it require "AuthTool", which is a malware-delivery tool
+- Look for commands containing Base64 encoded strings
+- Use a skill scanner
+- Use your head.
+
+:::
+
+
+### Scanners
+- https://clawdex.koi.security/
+- https://www.bitdefender.com/en-us/consumer/ai-skills-checker
+
+::: notes
+
+
+
+:::
 
 # The End
 
