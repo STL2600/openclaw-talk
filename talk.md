@@ -8,6 +8,9 @@
 
 # The Horror
 
+![](static/bug-report.png)
+
+
 ## Branding
 
 ---
@@ -82,6 +85,16 @@ And of course, there Moltbook, which is Reddit for AI agents.
 
 :::
 
+### The Dumb Way To Install A Skill
+
+![](static/install-skill-example-2.png)
+
+::: notes
+
+They found a worse way than piping a script to bash for installing skills
+
+:::
+
 ### Statistics
 - Approx 20% of skills Malicious
 - 54% of Crypto-currency/Gambling
@@ -103,8 +116,10 @@ Not coutning the 29 typosquat instances they found
 
 :::
 
+
 ### Moltbook
 
+![](static/moltbook-screenshot.png)
 
 
 ### Moltbook
@@ -186,6 +201,35 @@ Sandbox escape.
 
 ## Prompt Injection
 
+Any text OpenClaw has access to can be prompt injected.
+
+### Prompt Injection
+
+- Email
+- Calendar
+- iMessage
+- OCR Images
+- Voicemail (with voice to text)
+
+### Prompt Injection Example
+
+Ask OpenClaw the Following:
+```
+Run the command gog gmail search "is:unread" --max=1
+Read the contents of the email
+Summarize the email's contents
+```
+
+### Prompt Injection Example
+
+![](static/prompt-injection-email.png)
+
+::: notes
+
+Then OpenClaw comes across this email.
+
+:::
+
 ## Exposed Instances
 
 ![](static/exposed-instances.png)
@@ -199,6 +243,16 @@ Insecure by default
 :::
 
 ## Shadow IT
+
+Token Security found that 22% of their clients have OpenClaw deployed somewhere
+
+::: notes
+
+Token Security (Some AI based security company) is reporting 22% of their customers have OpenClaw deployed
+
+Given the nature of Token's business, that may be a skewed figure, but it's still a lot.
+
+:::
 
 ## The Lethal Trifects
 
@@ -261,6 +315,21 @@ Think about the tools you give it
 
 ### Spotting a Malicious Skill
 
+![](static/vuln-skill-example.png)
+
+::: notes
+
+Took me about 10 minutes of browisng ClawHub and I found one.
+
+:::
+
+### Spotting a Malicious Skill
+
+- Is it similar in name to another skill?
+- Does it use AuthTool?
+- Is there a reason that string is Base64?
+- Use a skill scanner.
+
 ::: notes
 
 - Might appear to have extensive documentation
@@ -274,6 +343,7 @@ Think about the tools you give it
 
 
 ### Scanners
+
 - https://clawdex.koi.security/
 - https://www.bitdefender.com/en-us/consumer/ai-skills-checker
 
