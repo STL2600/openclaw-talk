@@ -86,6 +86,16 @@ Sandbox escape.
 
 ## Exposed Instances
 
+![](static/exposed-instances.png)
+
+::: notes
+
+Mac Mini is the most popular deployment
+Deployment instructions had "just forward a port"
+Insecure by default
+
+:::
+
 ## Shadow IT
 
 ## The Lethal Trifects
@@ -108,11 +118,42 @@ Sandbox escape.
 
 ## Okay, if you have to
 
-## Containers
+## VM / Container
+
+![](static/hannibal.png)
+
+::: notes
+
+OpenCLaw by default runs things in its own docker containers, but there's been at least one escape vuln so far
+Run the whole thing in a VM with limited permissions and network access
+     - No local network
+     - Monitor incoming and outgoing connections
+Very restricted filesystem access
+
+:::
 
 ## No Creds
 
+![](static/keys.png)
+
+::: notes
+
+For fucks sake don't give it access to your email or banking info
+Don't give it your crypto
+Don't give it your messaging
+Don't give it your chipotle customer rewards number
+
+:::
+
 ## Small Blast Radius
+
+::: notes
+
+If you get owned what's the _worst_ thing it can do?
+Think about untrusted input
+Think about the tools you give it
+
+:::
 
 ## Review Skills
 
