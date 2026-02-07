@@ -117,7 +117,7 @@ Not coutning the 29 typosquat instances they found
 :::
 
 
-### Moltbook
+## Moltbook
 
 ![](static/moltbook-screenshot.png)
 
