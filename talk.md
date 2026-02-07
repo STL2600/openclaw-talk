@@ -1,6 +1,10 @@
-% Welcome to the shitshow / OpenClaw
+% OpenClaw
 % Robert / Joe
 %![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
+
+# Or ...
+
+# Welcome to the Shitshow
 
 # What is it?
 
