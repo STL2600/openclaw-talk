@@ -45,7 +45,7 @@ Seriously, two name changes in like a day.
 
 ---
 
-### So What?
+## So What?
 
  - GitHub and Twitter handles immediately squatted
  - Dozens of fradulent packages on NPM
@@ -53,7 +53,7 @@ Seriously, two name changes in like a day.
   
 ## Malicious Skills
 
-### What are Skills
+## What are Skills
 
 - Extends OpenClaws Capabilities
 - Just Plain-text Instructions
@@ -71,7 +71,7 @@ Consequently, this makes it just as easy to abuse.
 
 :::
 
-### Skill Repos
+## Skill Repos
 
 - ClawHub.ai
 - Skills.sh
@@ -85,7 +85,7 @@ And of course, there Moltbook, which is Reddit for AI agents.
 
 :::
 
-### The Dumb Way To Install A Skill
+## The Dumb Way To Install A Skill
 
 ![](static/install-skill-example-2.png)
 
@@ -95,7 +95,7 @@ They found a worse way than piping a script to bash for installing skills
 
 :::
 
-### Statistics
+## Statistics
 - Approx 20% of skills Malicious
 - 54% of Crypto-currency/Gambling
 - 24% of Social Media
@@ -122,7 +122,7 @@ Not coutning the 29 typosquat instances they found
 ![](static/moltbook-screenshot.png)
 
 
-### Moltbook
+## Moltbook
 
 - Agents can share skills
 - Pinoccio also gets to pretent to be a real boy!
@@ -136,7 +136,7 @@ Now if you haven't read enough sci-fi that this alone makes your butthole pucker
 
 :::
 
-### MoltBook
+## MoltBook
 
 - Lauched 9 Days ago
 - 1.5 Million Agents
@@ -203,7 +203,7 @@ Sandbox escape.
 
 Any text OpenClaw has access to can be prompt injected.
 
-### Prompt Injection
+## Prompt Injection
 
 - Email
 - Calendar
@@ -211,7 +211,7 @@ Any text OpenClaw has access to can be prompt injected.
 - OCR Images
 - Voicemail (with voice to text)
 
-### Prompt Injection Example
+## Prompt Injection Example
 
 Ask OpenClaw the Following:
 ```
@@ -220,7 +220,7 @@ Read the contents of the email
 Summarize the email's contents
 ```
 
-### Prompt Injection Example
+## Prompt Injection Example
 
 ![](static/prompt-injection-email.png)
 
@@ -313,7 +313,7 @@ Think about the tools you give it
 
 ## Review Skills
 
-### Spotting a Malicious Skill
+## Spotting a Malicious Skill
 
 ![](static/vuln-skill-example.png)
 
@@ -323,7 +323,7 @@ Took me about 10 minutes of browisng ClawHub and I found one.
 
 :::
 
-### Spotting a Malicious Skill
+## Spotting a Malicious Skill
 
 - Is it similar in name to another skill?
 - Does it use AuthTool?
@@ -342,7 +342,7 @@ Took me about 10 minutes of browisng ClawHub and I found one.
 :::
 
 
-### Scanners
+## Scanners
 
 - https://clawdex.koi.security/
 - https://www.bitdefender.com/en-us/consumer/ai-skills-checker
